@@ -2,6 +2,9 @@ import React from 'react'
 import { styles } from '../styles'
 import { Link } from 'react-router-dom'
 import  logo  from '../assets/logo.png';
+import {navLinks} from '../constant/index'
+
+const Links = [{name :"About", id : "about"},{name :"contact", id : "contact"} ]
 
 const Navbar = () => {
   return (
@@ -13,14 +16,18 @@ const Navbar = () => {
         >
           <img 
             src={logo}
-            className='w-[90px] h-[70px] bg-blend-color-burn'
+            className='w-[85px] h-[70px] '
             
           />
-          <p className='text-white font-bold'>Portfolio</p>
+          <p className='text-white font-bold'>Portfolio &nbsp; | MERN Stack Developer</p>
         </Link>
-        <Link>
-          Home
-        </Link>
+      <ul className='list-none flex justify-end items-center flex-row gap-4'>
+       {Links.map((link) => {
+        <li>
+          {link}
+        </li>
+       } )}
+      </ul>
       </div>
     </nav>
   )
