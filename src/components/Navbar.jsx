@@ -23,7 +23,7 @@ const Navbar = () => {
           {navLinks.map((link) => {
             return (
               <li 
-                className={`${active === link.title ? " text-white border-b-[1px] border-red-500" : "text-secondary"}  hover:text-white text-[18px] font-medium cursor-pointer`}key={link.id}
+                className={`${active === link.title ? " text-white border-b-[1px] border-[#915eff]" : "text-secondary"}  hover:text-white text-[18px] font-medium cursor-pointer`}key={link.id}
                 onClick={() => setActive(link.title)}
               >
                 <a 
@@ -38,18 +38,18 @@ const Navbar = () => {
 
         <div className='sm:hidden flex flex-1 items-center justify-end'>
           <img 
-            src={toggle ? menu : close}
+            src={!toggle ? menu : close}
             alt='menu'
             className='w-7 h-7 object-contain cursor-pointer'
             onClick={() => setToggle(!toggle)}
           />
         </div>
-        <div className={`${toggle ? " hidden" : "flex"} p-6 bg-slate-600 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
+        <div className={`${!toggle ? " hidden" : "flex"} p-6 bg-slate-600 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
         <ul className='list-none flex  flex-col items-center gap-4'>
           {navLinks.map((link) => {
             return (
               <li 
-                className={`${active === link.title ? " text-white border-b-[1px] border-red-500" : "text-secondary"}  hover:text-white text-[18px] font-medium cursor-pointer`}key={link.id}
+                className={`${active === link.title ? " text-white border-b-[1px] border-[#915eff]" : "text-secondary"}  hover:text-white text-[18px] font-medium cursor-pointer`}key={link.id}
                 onClick={() => setActive(link.title)}
               >
                 <a 
