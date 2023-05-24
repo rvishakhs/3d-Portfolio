@@ -20,16 +20,26 @@ const ExperienceCard = ({data}) => {
             <img 
               src={data.icon}
               alt={data.company_name}
-              className='w-[60%] h-[60%] object-contain '
+              className='w-[60%] h-[60%] object-contain'
             />
           </div>
         }
       >
         <div>
-          <h3>{data.title}</h3>
+          <h3 className='font-bold text-lg tracking-wide'>{data.title}</h3>
+          <p className='font-semibold text-base text-gray-300'>{data.company_name}</p>
         </div>
-
-
+        <div className='mt-2'>
+          <ul className='flex mt-2 flex-col list-disc ml-5 space-y-2'>
+            {data.points.map((point, index) => {
+              return (
+                <li key={`experience-point-${index}`}>
+                    {point}
+                </li>
+              )
+            })}
+          </ul>
+        </div>
       </VerticalTimelineElement>
   )
 } 
