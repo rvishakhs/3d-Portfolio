@@ -16,4 +16,4 @@ const Tech = () => {
   );  
 };
 
-export default Sectionwrapper(Tech, "tech");
+export default Sectionwrapper(Tech, "");
