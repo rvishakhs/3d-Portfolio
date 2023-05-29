@@ -1,38 +1,43 @@
-import { Tilt } from "react-tilt"
-import { projects } from "../constant"
-import { motion } from "framer-motion"
+import React from "react";
+import { Tilt } from "react-tilt";
+import { motion } from "framer-motion";
+import { styles } from "../styles";
+import { github } from "../assets";
 import { Sectionwrapper } from "../HOC"
-import { fadeIn, textVariant } from "../uttils/motion"
-import { styles } from "../styles"
+import { projects } from "../constant";
+import { fadeIn, textVariant } from "../uttils/motion";
 
 
-const projectCard = ({index,
+
+const ProjectCard = ({index,
   name,
   description,
   tags,
   image,
   source_code_link,}) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}      
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
-      >
-        <div className="relative w-full h-[230px]">
-          <img
-              src={image}
-              alt='project_image'
-              className='w-full h-full object-cover rounded-2xl'
-          />
+    <p><motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <Tilt
+      options={{
+        max: 45,
+        scale: 1,
+        speed: 450,
+      }}      
+      className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+    >
+      <div className="relative w-full h-[230px]">
+        <img
+            src={image}
+            alt='project_image'
+            className='w-full h-full object-cover rounded-2xl'
+        />
+        <div>
 
         </div>
+      </div>
 
-      </Tilt>
-    </motion.div>
+    </Tilt>
+  </motion.div></p>
   )
 }
 
@@ -58,7 +63,7 @@ const Works = () => {
       </div>
       <div className="flex flex-wrap gap-7 mt-20">
         {projects.map((project, index) => (
-          <projectCard 
+          <ProjectCard 
             key={`project-${index}`} 
             index={index}
             {...project}
