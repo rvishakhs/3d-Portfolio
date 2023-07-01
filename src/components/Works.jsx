@@ -55,7 +55,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-base max-w-3xl leading-[30px] text-justify"
         >
-          Here is some little things about me as a self taugt developer projects are the best way to showcase my skills,
+           Here is some little things about me as a self taugt developer projects are the best way to showcase my skills,
            so i spends more and more time to create projects and implyment new techs in each products. it's my pleasure to 
            see somebody scrolling through my works that's the great reward for me.  
 
