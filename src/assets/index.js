@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,34 +29,40 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import netflix from "./netflix.png";
+import news from "./news.png";
+import ai from "./ai.png";
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+    logo,
+    backend,
+    creator,
+    mobile,
+    web,
+    github,
+    menu,
+    close,
+    css,
+    docker,
+    figma,
+    git,
+    html,
+    javascript,
+    mongodb,
+    nodejs,
+    reactjs,
+    redux,
+    tailwind,
+    typescript,
+    threejs,
+    meta,
+    shopify,
+    starbucks,
+    tesla,
+    carrent,
+    jobit,
+    tripguide,
+    netflix,
+    news,
+    ai,
 };
