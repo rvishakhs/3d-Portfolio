@@ -39,6 +39,7 @@ import sql from "../assets/sql.svg";
 import bez from "../assets/bez.jpg";
 import theo from "../assets/theo.jpg";
 import sooraj from "../assets/sooraj.jpg";
+import parpella from "../assets/parpella.png";
 
 export const navLinks = [
     {
@@ -179,14 +180,14 @@ const experiences = [
         ],
     },
     {
-        title: "Junior React Developer",
-        company_name: "Infinite Open Source Solutions",
-        icon: tesla,
+        title: "Frontend Developer",
+        company_name: "Parpella Pvt Ltd",
+        icon: parpella,
         iconBg: "#E6DEDD",
-        date: "February 2020 - April 2021",
+        date: "February 2018 - june 2020",
         points: [
             `Built and deployed responsive, cross-browser compatible
-            web applications using React, HTML, and Css`,
+            web applications using, HTML, and Css and JavaScript`,
             `Collaborated with senior developers to learn and
             implement best practices and coding standards in
             JavaScript development
@@ -204,7 +205,7 @@ const experiences = [
 
 const testimonials = [
     {
-        testimonial: "I've never met a web developer who truly cares about his passion while working with us, He deserves a bright future.",
+        testimonial: "You work extremely hard and I really appreciate it, so Thank you.                             ",
         name: "Besert Etemi",
         designation: "Manager",
         company: "Pret A Manger",
@@ -218,7 +219,7 @@ const testimonials = [
         image: theo,
     },
     {
-        testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        testimonial: "Working with him was a joy; his exceptional time management and insatiable curiosity for new tech made him stand out.",
         name: "Sooraj ",
         designation: "Senior Dev",
         company: "Gama Security Systems",

@@ -37,7 +37,7 @@ const Contact = () => {
                     from_name: form.name,
                     to_name: "Sooraj",
                     from_email: form.email,
-                    to_email: "rsoorajs@gmail.com",
+                    to_email: "me@visakhsr.com",
                     message: form.message,
                 },
                 "Ktg5p1AWLoFEQLyzC"
@@ -54,7 +54,7 @@ const Contact = () => {
                     });
                 },
                 (error) => {
-                    const notify = () => toast("Something went wrong. Please email me at me@soorajsr.com");
+                    const notify = () => toast("Something went wrong. Please email me at me@visakhsr.com");
                     notify();
                     setLoading(false);
                     console.log(error);
