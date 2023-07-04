@@ -41,7 +41,7 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
             >
-                Hi there! My name is Sooraj, and I'm a self-taught developer with a passion for web development. Over the
+                Hi there! My name is Visakh, and I'm a self-taught developer with a passion for web development. Over the
                 years, I have honed my skills in various technologies such as Node.js, JavaScript, MongoDB, Mongoose,
                 React.js, Next.js, and Express.js, to name a few. Through my experience working on a few freelancing
                 projects, I have gained valuable insight into the world of web development, and I'm constantly learning new

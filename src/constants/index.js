@@ -36,6 +36,9 @@ import kubernetes from "../assets/kubernetes.svg";
 import aws from "../assets/aws.svg";
 import django from "../assets/django.svg";
 import sql from "../assets/sql.svg";
+import bez from "../assets/bez.jpg";
+import theo from "../assets/theo.jpg";
+import sooraj from "../assets/sooraj.jpg";
 
 export const navLinks = [
     {
@@ -201,25 +204,25 @@ const experiences = [
 
 const testimonials = [
     {
-        testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        testimonial: "I've never met a web developer who truly cares about his passion while working with us, He deserves a bright future.",
+        name: "Besert Etemi",
+        designation: "Manager",
+        company: "Pret A Manger",
+        image: bez,
     },
     {
         testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+        name: "Theo Nebel",
+        designation: "Asst Manager",
+        company: "Pret A Manger",
+        image: theo,
     },
     {
         testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        name: "Sooraj ",
+        designation: "Senior Dev",
+        company: "Gama Security Systems",
+        image: sooraj,
     },
 ];
 
